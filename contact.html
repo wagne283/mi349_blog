@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Perspective</title>
+</head>
+<body>
+    <header>
+        <h1>blog.</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" class="contact-info">
+            <div class="contact-info">
+                <label>Name:
+                    <input type="text" name="name">
+                </label>
+            </div>
+            <div class="contact-info">
+            <label>Email Address:
+                <input type="text" name="email">
+            </label>
+            </div>
+            <div class="contact-info">
+            <label>Reason for Contact:
+                <select name="reason" id="reason-select">
+                    <option value="">Please choose an option</option>
+                    <option value="saying hi">saying hi</option>
+                    <option value="looking for a contractor">looking for a contractor</option>
+                    <option value="interested in an interview">interested in an interview</option>
+                </select>
+            </label>
+            </div>
+            <div class="contact-info">
+                <textarea name="comment"></textarea>
+            </div>
+            <div class="contact-info">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
