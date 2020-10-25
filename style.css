@@ -18,6 +18,7 @@ h1 {
 
 p {
     line-height: 1.4em;
+    width: 600px;
 }
 
 #blog {
@@ -25,8 +26,7 @@ p {
 }
 
 .blog-post {
-    border-bottom: 1px dotted #ccc;
-    width: 600px;  
+    border-bottom: 1px dotted #ccc;  
 }
 
 [src] {
@@ -50,6 +50,7 @@ a {
     text-decoration: none;
 }
 
-input {
-    margin-left: auto;
+div.contact-info {
+    width:150px;
+    text-align: center;
 }
