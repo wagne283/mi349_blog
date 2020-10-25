@@ -1,0 +1,55 @@
+html {
+    background: #ccc;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+    margin: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+#blog {
+    border-top: 1px dotted #ccc;
+}
+
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+    width: 600px;  
+}
+
+[src] {
+    border: 2px solid #242424;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: square;
+}
+
+td.year {
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-right: 2px solid #242424;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    margin-left: auto;
+}
