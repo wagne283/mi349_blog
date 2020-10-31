@@ -8,6 +8,7 @@ body {
     margin: 40px;
     color: #242424;
     border-top: 10px solid #242424;
+    border-bottom: 10px solid #242424;
     background: #fff;
 }
 
@@ -16,22 +17,42 @@ h1 {
     margin: 0;
 }
 
+nav {
+    background: #fff;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #ccc;
+}
+
 p {
     line-height: 1.4em;
     width: 600px;
 }
 
 #blog {
-    border-top: 1px dotted #ccc;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;  
+    flex: 1;
+    width:50%;
+}
+
+.floater {
+    float: left;
+}
+
+figcaption {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: gray;
+    text-align: center;
 }
 
 [src] {
     border: 2px solid #242424;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
