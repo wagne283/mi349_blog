@@ -75,3 +75,9 @@ div.contact-info {
     width:150px;
     text-align: center;
 }
+
+@media (max-width: 400px) {
+    [src] {
+        size: 50%;
+    }
+}
