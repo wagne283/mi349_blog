@@ -37,7 +37,7 @@ p {
 .blog-post {
     border-bottom: 1px dotted #ccc;  
     flex: 1;
-    width:50%;
+    width:800px;
 }
 
 .floater {
@@ -77,7 +77,10 @@ div.contact-info {
 }
 
 @media (max-width: 400px) {
-    [src] {
-        size: 50%;
+    p {
+        font-size: 12px;
+    }
+    .blog-post {
+        width: 400px;
     }
 }
